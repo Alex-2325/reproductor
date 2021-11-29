@@ -1,0 +1,277 @@
+.list-container {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+*{
+    border:0px;
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background-color:#42200f ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.reproductor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0px;
+    background-color:#160e33;
+    width: 193vh;
+    height: 5em;
+    padding:0.4em 1em 0.4em 1em;
+}
+
+.imagen-repro{
+    display: flex;
+    align-items: center;
+    margin-left: 8em;
+}
+.caratula img{
+    width: 30em;
+    border-radius:50%;
+    animation-name: girar;
+    animation-play-state: paused;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+}
+
+.controles{
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.controles button{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.control{
+    color:#b909b9;
+    font-size: 1.7em;
+}
+
+.volume{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.volume input{
+    cursor: pointer;
+}
+
+@keyframes girar{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.container-controles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-bar{
+    width: 100%;
+    cursor: pointer;
+}
+
+.main-container{
+    margin-top: 80px;
+}
+.main-menu{
+    width: 193vh;
+    height: 60px;
+    background-color:#161129;
+    position: fixed;
+    top: 0px;
+}
+.container{
+    display: flex;
+    margin-bottom: 50px;
+    margin-top:50PX;
+}
+.list-container{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-item{
+    background-color: #62cf22;
+    width: 50%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+.list-item img{
+    width: 100px;
+    height: 100px;
+}
+.data{
+    margin-left: 2em;
+    color: #ff781e;
+}
+.filter-genere {
+    margin-left: 2em;
+    padding: 0.5em;
+    background-color: #bd90b5;
+    color:#96a12e;
+    width: 300px;
+}
+* {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    border:0px;
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background-color:#78c445 ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.reproductor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0px;
+    background-color:#63b4a3;
+    width: 193vh;
+    height: 5em;
+    padding:0.4em 1em 0.4em 1em;
+}
+
+.imagen-repro{
+    display: flex;
+    align-items: center;
+    margin-left: 8em;
+}
+.caratula img{
+    width: 30em;
+    border-radius:50%;
+    animation-name: girar;
+    animation-play-state: paused;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+}
+
+.controles{
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.controles button{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.control{
+    color:#000000;
+    font-size: 1.7em;
+}
+
+.volume{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.volume input{
+    cursor: pointer;
+}
+
+@keyframes girar{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.container-controles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-bar{
+    width: 100%;
+    cursor: pointer;
+}
+
+.main-container{
+    margin-top: 80px;
+}
+.main-menu{
+    width: 193vh;
+    height: 60px;
+    background-color:#178a54;
+    position: fixed;
+    top: 0px;
+}
+.container{
+    display: flex;
+    margin-bottom: 50px;
+    margin-top:50PX;
+}
+.list-container{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-item{
+    background-color: #204a81;
+    width: 50%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+.list-item img{
+    width: 100px;
+    height: 100px;
+}
+.data{
+    margin-left: 2em;
+    color: #d6d7dc;
+}
+.filter-genere {
+    margin-left: 2em;
+    padding: 0.5em;
+    background-color: #2b242a;
+    color:#d6d7dc;
+    width: 300px;
+}
+body {
+    background-color: #303030;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

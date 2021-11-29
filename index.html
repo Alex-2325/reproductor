@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.3.45/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Reproductor de Musica</title>
+</head>
+<body>
+    <nav class="main-menu">
+    </nav>
+    <div class="main-container">
+        <div class="filters">
+            <select id="filter-genere" class="filter-genere">
+                <option value="all">Todos</option>
+                <option value="salsa">Salsa</option>
+                <option value="trap">Trap Argentino</option>
+                <option value="balada">Balada</option>
+            </select>
+
+            <input type="text" id="filter-title">
+        </div>
+        <div class="imagen-repro">
+            <div class="caratula">
+                <img src="IMG/Nuestra-Balada..jpg" id="caratula">
+            </div>
+            <div class="container">
+                <section id="list-container" class="list-container">
+        <article class="list-item" id="0">
+            <img src="IMG/maxresdefault.jpg">
+            <div class="data">
+                <div>Título: <span>El embrujo</span></div>
+                <div>artista: <span>Morat</span></div>
+        
+        <article class="list-item" id="4">
+            <img src="IMG/maxresdefault.jpg">
+            <div class="data">
+                <div>Título: <span>Me vas a extrañar</span></div>
+                <div>artista: <span>Orquesta N'Samble</span></div>
+                
+                
+            </div>
+        </article>
+        
+        <article class="list-item" id="5">
+            <img src="img/mi persona favorita.jpg">
+            <div class="data">
+                <div>Título: <span>Mi persona favorita</span></div>
+                <div>artista: <span>Alejandro sanz ft. Camila Cabello</span></div>
+                
+                
+            </div>
+        </article>
+        </section>
+            </div>
+        </div>
+    </div>
+    <div class="reproductor">
+        <div class="container-controles">
+            <div class="controles">
+                <button id="prev-btn"><span class="control mdi mdi-skip-backward"></span></button>
+                <button id="play-btn"><span id="play-icon" class="control mdi mdi-play"></span></button>
+                <button id="next-btn"><span class="control mdi mdi-skip-forward"></span></button>
+            </div>
+            <input type="range" class="progress-bar" name="progress-bar" id="progress-bar" min="0" step="1" max="221.649025">
+        </div>
+        <div class="volume">
+            <span class="control mdi mdi-volume-high"></span>
+            <input type="range" name="volume" id="volume-control" min="0" max="1" step="0.01">
+        </div>
+    </div>
+    <audio id="cancion" src="AUDIO/Luis Fonsi - Nuestra Balada.mp3"></audio>
+    
+    <script src="JS/script.js"></script>
+
+</body></html>
